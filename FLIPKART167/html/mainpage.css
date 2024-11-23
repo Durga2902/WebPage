@@ -1,0 +1,17 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+a{
+    margin-right: 7cm;
+    font-family: cursive;
+    color:white;
+}
+div{
+    background-color: black;
+    padding: 6px;
+    height: 0.8cm;
+}
+body{
+    background-color: turquoise;
+}

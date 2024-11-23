@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cart.css">
+    <script type="text/javascript" src="addtocart.js"></script>
+    <title>Add to cart page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="item1">
+            <img src="https://img.freepik.com/free-vector/mans-suit-realistic-composition-with-smart-costume-with-white-shirt-tie-jacket_1284-54345.jpg?size=626&ext=jpg&ga=GA1.1.1438804688.1677595027&semt=sph" alt="">
+            <div class="title">Blazer</div>
+            <div>
+                <label for="">
+                    SIZE:
+                </label>
+                <select name="" id="">
+                    <option value="">30</option>
+                    <option value="">32</option>
+                    <option value="">34</option>
+                    <option value="">36</option>
+
+                </select>
+            </div>
+            <button onclick="addToCart(item1)">Add TO Cart</button>
+        </div>
+
+        <div class="card" id="item2">
+            <img src="https://img.freepik.com/premium-photo/women-s-poly-crepe-aline-kurta-with-pant-dupatta_920356-1056.jpg?size=626&ext=jpg&ga=GA1.2.1438804688.1677595027&semt=ais" alt="">
+            <div class="title">Kurthi set</div>
+            <div>
+                <label for="">
+                    SIZE:
+                </label>
+                <select name="" id="">
+                    <option value="">S</option>
+                    <option value="">M</option>
+                    <option value="">XL</option>
+                    <option value="">XXL</option>
+
+                </select>
+            </div>
+            <button  onclick="addToCart(item2)">Add TO Cart</button>
+        </div>
+
+
+
+<div class="card" id="item3">
+    <img src="https://rukminim1.flixcart.com/image/612/612/xif0q/sandal/f/p/e/-original-imagg3tgj4xkz3gu-bb.jpeg?q=70" alt="">
+    <div class="title"> Women Maroon Casual Sandal</div>
+    <div>
+        <label for="">
+            SIZE:
+        </label>
+        <select name="" id="">
+            <option value="">8</option>
+            <option value="">9</option>
+            <option value="">10</option>
+            <option value="">11</option>
+
+        </select>
+    </div>
+    <button  onclick="addToCart(item3)">Add TO Cart</button>
+</div>
+</div>
+
+
+<div class="cart" id="cart">
+    <div class="title" style="font-size: 30px;font-weight: bold;">CART</div><hr>
+    <div id="title"></div>
+    <div class="total">
+        <a href="billing.html"type="button">Continue</a></div>
+</div>
+</body>
+</html>
